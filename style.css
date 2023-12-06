@@ -132,6 +132,12 @@ main {
   color: var(--clr-neutral-400);
 }
 
+.signup__image > img {
+  object-fit: cover;
+  height: auto;
+  width: 100%;
+}
+
 .signup__title {
   padding: 0 var(--inner-padding);
   font-size: 2rem;
