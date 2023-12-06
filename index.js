@@ -32,6 +32,7 @@ form.addEventListener("submit", (event) => {
     disableError();
     signup.classList.add("hidden");
     success.classList.remove("hidden");
+    success.querySelector("#success__email").textContent = value;
     form.reset();
   }
 });
